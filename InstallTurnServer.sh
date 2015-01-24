@@ -3,6 +3,7 @@ echo Installing Turn Server.......  Please Wait.........
 cd ..
 sudo tar xvfz libevent.tar.gz
 cd libevent
+sudo apt-get install libssl-dev
 sudo ./configure
 clear
 echo Configuring LibEvent Complete
